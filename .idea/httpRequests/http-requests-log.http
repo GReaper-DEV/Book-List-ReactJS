@@ -1,0 +1,52 @@
+DELETE http://localhost:3001/books/1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/WebStorm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-29T093603.200.json
+
+###
+
+PUT http://localhost:3001/books/1
+Content-Type: application/json
+Content-Length: 31
+User-Agent: IntelliJ HTTP Client/WebStorm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "Harry Potter 2"
+}
+
+<> 2024-10-29T093524.200.json
+
+###
+
+POST http://localhost:3001/books
+Content-Type: application/json
+Content-Length: 29
+User-Agent: IntelliJ HTTP Client/WebStorm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "Harry Potter"
+}
+
+<> 2024-10-29T093356.201.json
+
+###
+
+GET http://localhost:3001/books
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/WebStorm 2024.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-10-29T093229.200.json
+
+###
+

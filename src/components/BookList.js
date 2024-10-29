@@ -3,6 +3,7 @@ import BookShow from "./BookShow";
 function BookList({books, onDelete, onEdit}) {
 
     const booksList = books.map((book) => {
+        // console.log(book);
         return <BookShow key={book.id} onEdit={onEdit} onDelete={onDelete} book={book}/>
     })
     return <div>
