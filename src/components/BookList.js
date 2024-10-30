@@ -1,10 +1,9 @@
 import BookShow from "./BookShow";
 
-function BookList({books, onDelete, onEdit}) {
+function BookList({books}) {
 
     const booksList = books.map((book) => {
-        // console.log(book);
-        return <BookShow key={book.id} onEdit={onEdit} onDelete={onDelete} book={book}/>
+        return <BookShow key={book.id} book={book}/>
     })
     return <div>
         <h3 style={{fontSize: '25px', fontWeight: 'bold', maxWidth: '1024px', margin: 'auto'}}>Reading List</h3>
